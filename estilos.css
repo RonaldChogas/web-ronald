@@ -1,0 +1,48 @@
+body{
+	background: blue;
+}
+.contenedor{
+	width: 960px;
+	margin: 0 auto;
+}
+.menu-lista{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.menu-item{
+display: inline-block;
+}
+.menu-link{
+padding: 10px;
+border-radius: 10px
+}
+nav{
+	text-align: center;
+}
+.menu-link{
+	font-size: 18px;
+	background:red;
+	color: black;
+	text-decoration: none;
+}
+.menu-link:hover{
+text-decoration: underline;
+box-shadow: 5px 5px 15px black;
+transition: 0.5s;
+}
+.slider{
+	margin-top: 50px;
+	border:1px solid red;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	color: black;
+}
+p{
+	text-align: center;
+	color: yellow;
+	font-size: 30px;
+}
